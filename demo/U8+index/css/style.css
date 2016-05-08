@@ -1,0 +1,1057 @@
+@charset 'UTF-8';
+@charset "UTF-8";
+body,
+ul,
+p,
+form,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    background-color: #fff;
+}
+
+#nav {
+    height: 92px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#nav div {
+    float: left;
+}
+
+#nav .logo {
+    position: absolute;
+    left: 20%;
+}
+
+#nav .login {
+    position: absolute;
+    left: 73%;
+    top: 8px;
+}
+
+#nav div ul,
+#nav div {
+    display: inline-block;
+}
+
+#nav div ul li {
+    float: left;
+    margin-top: 20px;
+}
+
+#nav div ul li.line {
+    border-right: 1px solid #ccc;
+    padding-right: 2%;
+}
+
+#nav div ul li.line1 {
+    margin-left: 2%;
+}
+
+#nav div.logo ul {
+    width: 310px;
+}
+
+#nav div.logo ul li {
+    padding: 0 2%;
+}
+
+#nav div.login ul li {
+    line-height: 50px;
+}
+
+#nav div.login ul li.bnt {
+    color: #fd6804;
+    cursor: pointer;
+}
+
+#nav div.login ul li.bnt:hover {
+    color: #f65354;
+    font-weight: bold;
+}
+
+#banner {
+    height: 496px;
+    background-color: #181e6e;
+    position: relative;
+}
+
+#banner div {
+    float: left;
+}
+
+#banner div.phone {
+    position: absolute;
+    left: 20%;
+    top: 42px;
+}
+
+#banner div.phone img {
+    max-width: 100%;
+    height: auto;
+}
+
+#banner div.list {
+    color: #fff;
+    position: absolute;
+    left: 35%;
+    top: 116px;
+    width: 20%;
+}
+
+#banner div.list h2 {
+    font-size: 5em;
+    font-weight: 800;
+}
+
+#banner div.list ul {
+    margin-top: 25px;
+}
+
+#banner div.list ul li {
+    line-height: 50px;
+    font-size: 1.5em;
+}
+
+#banner div.reg {
+    position: absolute;
+    left: 65%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 15%;
+    height: 310px;
+}
+
+#banner div.reg h2 {
+    margin-top: 42px;
+    font-size: 2.5em;
+    font-weight: 200;
+    text-align: center;
+}
+
+#banner div.reg p {
+    text-align: center;
+    line-height: 70px;
+    font-size: 1.8em;
+}
+
+#banner div.reg div.bnt {
+    margin: 76px 0 0 20%;
+    background-color: #fead00;
+    border-radius: 5px;
+    height: 50px;
+    width: 60%;
+    border-bottom: 3px solid #fd6804;
+}
+
+#banner div.reg div.bnt:hover {
+    color: #fd6804;
+    cursor: pointer;
+}
+
+#banner div.reg div.bnt p {
+    font-size: 1.6em;
+    line-height: 50px;
+}
+
+#exp {
+    background-color: #eee;
+    height: 650px;
+    position: relative;
+}
+
+#exp div {
+    float: left;
+}
+
+#exp div.list {
+    position: absolute;
+    top: 175px;
+    left: 20%;
+}
+
+#exp div.phone {
+    position: absolute;
+    top: 110px;
+    left: 42%;
+}
+
+#exp div.phone img {
+    max-width: 100%;
+    height: auto;
+}
+
+#exp div.list h2 {
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+#exp div.list ul {
+    margin-top: 25px;
+}
+
+#exp div.list ul li {
+    line-height: 52px;
+    font-size: 1.8em;
+    color: #666;
+}
+
+#per {
+    height: 965px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#per h2 {
+    font-size: 4em;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+#per div.txt {
+    margin: 30px auto;
+    background-color: #eee;
+    width: 40%;
+}
+
+#per div p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 64px;
+}
+
+#per div.img {
+    margin-top: 30px;
+}
+
+#salary {
+    height: 652px;
+    background-color: #eee;
+    position: relative;
+}
+
+#salary div {
+    float: left;
+}
+
+#salary div.txt {
+    position: absolute;
+    top: 180px;
+    left: 55%;
+}
+
+#salary div.img {
+    position: absolute;
+    top: 36px;
+    left: 15%;
+    z-index: 100;
+}
+
+#salary div.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#salary div.txt h2 {
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+#salary div.txt ul {
+    margin-top: 25px;
+}
+
+#salary div.txt ul li {
+    line-height: 40px;
+    font-size: 1.8em;
+    color: #666;
+}
+
+#attem {
+    height: 908px;
+    background-color: #fff;
+    position: relative;
+}
+
+#attem div {
+    float: left;
+}
+
+#attem div.img {
+    position: absolute;
+    left: 47%;
+    top: 90px;
+}
+
+#attem div.txt {
+    position: absolute;
+    top: 284px;
+    left: 20%;
+}
+
+#attem div.txt h2 {
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+#attem div.txt ul {
+    margin-top: 25px;
+}
+
+#attem div.txt ul li {
+    line-height: 40px;
+    font-size: 1.8em;
+    color: #666;
+}
+
+#footer {
+    height: 200px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#footer div {
+    float: left;
+}
+
+#footer div.company {
+    position: absolute;
+    top: 40px;
+    left: 25%;
+}
+
+#footer div.company ul {
+    margin-top: 20px;
+}
+
+#footer div.company ul li {
+    line-height: 28px;
+    color: #999;
+    font-size: 1em;
+}
+
+#footer div.company ul li.contact {
+    color: #333;
+    font-size: 2em;
+}
+
+#footer div.img {
+    position: absolute;
+    top: 30px;
+    left: 65%;
+}
+
+#footer div.img img {
+    margin-left: 70%;
+}
+
+@media screen and (max-width: 1920px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    html {
+        font-size: 13px;
+    }
+    #banner div.phone {
+        left: 18%;
+    }
+    #salary div.img {
+        left: 10%;
+    }
+    #salary div.img img {
+        width: 90%;
+    }
+    #salary {
+        height: 580px;
+    }
+    #attem {
+        height: 820px;
+    }
+    #attem div.img img {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 12px;
+    }
+    #banner div.phone {
+        left: 16%;
+    }
+    #exp {
+        height: 530px;
+    }
+    #exp div.list {
+        left: 18%;
+    }
+    #exp div.phone {
+        width: 50%;
+    }
+    #salary div.img {
+        left: 9%;
+    }
+    #salary div.img img {
+        width: 80%;
+    }
+    #salary {
+        height: 540px;
+    }
+    #attem {
+        height: 760px;
+    }
+    #attem div.img img {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    html {
+        font-size: 11px;
+    }
+    #banner div.phone {
+        left: 14%;
+    }
+    #per {
+        height: 865px;
+    }
+    #per div.img img {
+        width: 70%;
+    }
+    #salary div.img {
+        left: 8%;
+    }
+    #salary div.img img {
+        width: 70%;
+    }
+    #salary {
+        height: 480px;
+    }
+    #salary div.txt {
+        top: 130px;
+    }
+    #attem {
+        height: 680px;
+    }
+    #attem div.txt {
+        left: 18%;
+    }
+    #attem div.img img {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 9px;
+    }
+    #banner {
+        height: 396px
+    }
+    #banner div.phone {
+        left: 16%;
+        width: 19%;
+        height: auto;
+    }
+    #banner div.list {
+        left: 40%;
+    }
+    #banner div.reg {
+        height: 210px;
+        left: 70%;
+    }
+    #banner div.reg div.bnt {
+        margin: 20px 0 0 20%;
+        height: 35px;
+        width: 60%;
+    }
+    #banner div.reg div.bnt p {
+        line-height: 35px;
+    }
+    #exp {
+        height: 400px;
+    }
+    #exp div.list {
+        top: 100px;
+        left: 18%;
+    }
+    #exp div.phone {
+        top: 80px;
+        width: 50%;
+    }
+    #per {
+        height: 765px;
+    }
+    #per div.img img {
+        width: 80%;
+    }
+    #salary div.img {
+        left: 6%;
+    }
+    #salary div.txt {
+        top: 90px;
+    }
+    #salary div.img img {
+        width: 60%;
+    }
+    #salary {
+        height: 420px;
+    }
+    #attem {
+        height: 550px;
+    }
+    #attem div.txt {
+        left: 16%;
+    }
+    #attem div.img img {
+        width: 93%;
+    }
+    #footer div.company {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #banner {
+        height: 320px;
+    }
+    #banner div.list {
+        width: 30%;
+        left: 35%;
+        top: 25%;
+    }
+    #banner div.list h2 {
+        font-size: 4em;
+    }
+    #banner div.list ul li {
+        line-height: 2.5;
+    }
+    #banner div.phone {
+        left: 12%;
+        width: 19%;
+        height: auto;
+    }
+    #banner div.reg {
+        height: 180px;
+        width: 19%;
+        left: 70%;
+    }
+    #banner div.reg h2 {
+        margin-top: 22px;
+    }
+    #banner div.reg div.bnt {
+        height: 30px;
+    }
+    #exp {
+        height: 350px;
+    }
+    #exp div.list {
+        left: 10%;
+        top: 80px;
+    }
+    #per {
+        height: 650px;
+    }
+    #salary div.img {
+        left: 2%;
+    }
+    #salary {
+        height: 380px;
+    }
+    #attem {
+        height: 450px;
+    }
+    #attem div.txt {
+        top: 120px;
+        left: 15%;
+    }
+    #attem div.img {
+        left: 52%;
+        top: 80px;
+    }
+    #footer div.company {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 9px;
+    }
+    #banner {
+        height: 310px;
+    }
+    #banner div.phone {
+        left: 15%;
+    }
+    #banner div.reg {
+        left: 70%;
+        height: 55%;
+    }
+    #banner div.reg h2 {
+        font-size: 2.2em;
+    }
+    #banner div.reg p {
+        font-size: 1.7em;
+    }
+    #banner div.reg div.bnt {
+        margin-top: -5px;
+        height: 28px;
+    }
+    #banner div.reg div.bnt p {
+        line-height: 28px;
+    }
+    #banner div.list {
+        width: 40%;
+        top: 75px;
+        left: 40%;
+    }
+    #banner div.list h2 {
+        font-size: 4em;
+    }
+    #banner div.list ul li {
+        line-height: 2.5;
+    }
+    #exp {
+        height: 350px;
+    }
+    #exp div.list {
+        left: 12%;
+        top: 20%;
+    }
+    #exp div.list ul li {
+        line-height: 2.2;
+    }
+    #exp div.phone {
+        left: 48%;
+        top: 32%;
+    }
+    #per {
+        height: 635px;
+    }
+    #salary {
+        height: 340px;
+    }
+    #salary div.img {
+        left: 3%;
+    }
+    #salary div.img img {
+        width: 55%;
+    }
+    #attem {
+        height: 400px;
+    }
+    #attem div.txt {
+        top: 30%;
+    }
+    #attem div.img {
+        top: 9%;
+        left: 55%;
+    }
+    #attem div.img img {
+        width: 115%;
+    }
+    #footer {
+        height: 160px;
+    }
+    #footer div.company {
+        top: 20%;
+        width: 55%;
+    }
+    #footer div.company ul li {
+        line-height: 1.5;
+    }
+    #footer div.img {
+        left: 62%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #nav div.logo {
+        left: 12%;
+    }
+    #nav div.login {
+        top: 210px;
+        z-index: 20;
+        left: 38%;
+    }
+    #banner {
+        height: 410px;
+    }
+    #banner div.list {
+        width: 50%;
+        left: 43%;
+        top: 200px;
+    }
+    #banner div.list ul {
+        margin-top: 15px;
+    }
+    #banner div.phone {
+        top: 222px;
+    }
+    #banner div.phone img {
+        max-width: 130%;
+        height: auto;
+    }
+    #banner div.reg {
+        top: 0;
+        width: 100%;
+        left: 0%;
+        height: 44%;
+    }
+    #banner div.reg h2 {
+        margin-top: 22px;
+    }
+    #banner div.reg div.bnt {
+        margin-left: 125px;
+        width: 40%;
+    }
+    #exp {
+        height: 470px;
+    }
+    #exp div.list {
+        top: 40px;
+        left: 15%;
+    }
+    #exp div.list h2,
+    #exp div.list ul li {
+        text-align: center;
+    }
+    #exp div.phone {
+        top: 250px;
+        left: 5%;
+    }
+    #exp div.phone img {
+        max-width: 180%;
+        height: auto;
+    }
+    #per {
+        height: 420px;
+    }
+    #per div.txt {
+        width: 80%;
+    }
+    #per div p {
+        line-height: 3.5;
+    }
+    #per div.img img {
+        width: 90%;
+    }
+    #salary {
+        height: 530px;
+    }
+    #salary div.txt {
+        top: 30px;
+        left: 15%;
+    }
+    #salary div.txt ul li,
+    #salary div.txt h2 {
+        text-align: center;
+    }
+    #salary div.img {
+        top: 250px;
+        left: 3%;
+    }
+    #salary div.img img {
+        width: 95%;
+    }
+    #attem {
+        height: 550px;
+    }
+    #attem div.txt {
+        top: 50px;
+    }
+    #attem div.txt ul li,
+    #attem div.txt h2 {
+        text-align: center;
+    }
+    #attem div.img {
+        top: 250px;
+        left: 20%;
+    }
+    #attem div.img img {
+        width: 95%;
+    }
+    #footer {
+        height: 350px;
+    }
+    #footer div.company {
+        top: 20px;
+        left: 4%;
+        width: 90%;
+    }
+    #footer div.company ul li,
+    #footer div.company h4,
+    #footer div.img h4 {
+        text-align: center;
+    }
+    #footer div.img {
+        left: 20%;
+        top: 160px;
+    }
+    #footer div.img h4 {
+        width: 100%;
+        margin-left: 45%;
+    }
+    #footer div.img img {
+        margin-top: 20px;
+        margin-left: 45%;
+    }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    #banner {
+        height: 299px;
+    }
+    #attem div.img img {
+        width: 100%;
+    }
+    #exp div.list {
+        left: 9%;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    #nav .logo {
+        left: 8%;
+    }
+    #banner {
+        height: 275px;
+    }
+    #banner div.phone {
+        left: 10%;
+    }
+    #banner div.list {
+        left: 32%;
+        top: 50px;
+    }
+    #banner div.reg {
+        width: 18%;
+        height: 58%;
+    }
+    #banner div.reg p {
+        line-height: 65px;
+    }
+    #banner div.reg div.bnt {
+        height: 24px;
+    }
+    #exp {
+        height: 270px;
+    }
+    #exp div.list {
+        left: 8%;
+    }
+    #exp div.phone {
+        left: 48%;
+        top: 26%;
+    }
+    #per {
+        height: 520px;
+    }
+    #per div.txt {
+        margin: 15px auto;
+        width: 50%;
+    }
+    #per div p {
+        line-height: 44px;
+    }
+    #salary {
+        height: 280px;
+    }
+    #salary div.img img {
+        width: 50%;
+    }
+    #salary div.txt {
+        top: 40px;
+        left: 50%;
+    }
+    #attem {
+        height: 290px;
+    }
+    #attem div.txt {
+        top: 15%;
+        left: 10%;
+    }
+    #attem div.img {
+        top: 4%;
+    }
+    #footer {
+        height: 175px;
+    }
+    #footer div.company {
+        left: 10%;
+    }
+    #footer div.img {
+        left: 55%;
+    }
+    #footer div.img h4 {
+        width: 80%;
+        margin-bottom: 5px;
+        margin-left: 70%;
+    }
+}
+
+@media screen and (max-width: 568px) and (orientation: landscape) {
+    #banner {
+        height: 240px;
+    }
+    #banner div.reg h2 {
+        margin-top: 20px;
+    }
+    #banner div.list {
+        top: 45px;
+    }
+    #banner div.list {
+        width: 35%;
+    }
+    #banner div.reg {
+        width: 22%;
+    }
+    #exp div.list {
+        left: 6%;
+    }
+    #per {
+        height: 470px;
+    }
+    #salary {
+        height: 245px;
+    }
+    #salary div.txt ul li {
+        line-height: 2;
+        font-size: 1.5em;
+    }
+    #attem {
+        height: 240px;
+    }
+    #attem div.txt ul li {
+        line-height: 2;
+        font-size: 1.5em;
+    }
+    #exp {
+        height: 220px;
+    }
+    #exp div.list ul li {
+        line-height: 2;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #banner div.phone {
+        left: 10%;
+    }
+    #banner div.list {
+        width: 56%;
+        top: 200px;
+    }
+    #banner div.list ul {
+        margin-top: 10px;
+    }
+    #banner div.phone img {
+        max-width: 145%;
+        height: auto;
+    }
+    #banner div.reg div.bnt {
+        margin-left: 115px;
+    }
+    #nav div.login {
+        left: 38%;
+    }
+    #salary {
+        height: 510px;
+    }
+    #footer div.img {
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #nav div.logo {
+        left: 0%;
+    }
+    #banner {
+        height: 384px;
+    }
+    #banner div.reg {
+        height: 48%;
+    }
+    #banner div.reg div.bnt {
+        margin-left: 98px;
+    }
+    #nav div.login {
+        left: 34%;
+    }
+    #banner div.list ul li {
+        line-height: 1.8;
+        font-size: 1.2em;
+    }
+    #exp {
+        height: 430px;
+    }
+    #exp div.list {
+        left: 5%;
+    }
+    #per {
+        height: 380px;
+    }
+    #per div.txt {
+        width: 90%;
+    }
+    #salary {
+        height: 470px;
+    }
+    #salary div.txt {
+        left: 2%;
+    }
+    #attem {
+        height: 490px;
+    }
+    #attem div.txt {
+        left: 5%;
+    }
+    #footer div.img {
+        left: 13%;
+    }
+}

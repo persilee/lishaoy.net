@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="web前端,简历,前端开发,个人简历,Bootstrap,Wordpress,Larave1">
+	<meta name="description" content="李少颖的个人简历、web前端工程师、精美的网页设计炫酷的动画效果、Bootstrap、Wordpress、Larave1">
+	<link rel="icon" href="images/per.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href='css/style.css'>
+	<title>个人简历(：李少颖</title>
+	<!--[if lt IE 9]>
+		<script src="js/respond.min.js" type="text/javascript"></script>
+		<script src="js/html5shiv.js" type="text/javascript"></script>
+	<![endif]-->
+</head>
+
+<body class="clearfix">
+	<nav id="nav-per" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<abbr class="initialism">
+					<span class="vita-per text-center"><em>个人简历</em></span>
+				</abbr>
+				<button data-target="#divNav" data-toggle="collapse" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="javascript:void();" oncilck="fn();return false;" class="navbar-brand"><strong><em>Lishaoy</em></strong><small><em>.net</em></small></a>
+				<a href="javascript:void();" oncilck="fn();return false;" class="navbar-brand"><img id="img-per" class="img-per img-circle img-responsive" src="images/head2.jpg"></a>
+			</div>
+
+			<div id="divNav" class="collapse navbar-collapse">
+				<ul id="nav-list-per" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#aboutMe-head">首页</a>
+					</li>
+					<li>
+						<a href="#aboutMe-con">关于我</a>
+					</li>
+					<li>
+						<a href="#wellBe">专业技能</a>
+					</li>
+					<li>
+						<a href="#workExp">我的经历</a>
+					</li>
+					<li>
+						<a href="#demoPer">我的作品</a>
+					</li>
+					<li>
+						<a href="#contactMe">联系我</a>
+					</li>
+					<li class="bg">
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+	<div id="cloud">
+		<div id="background-box"><img class="img-responsive" src="images/background-box.png" alt=""></div>
+		<div id="midground-box"><img class="img-responsive" src="images/background-box.png" alt=""></div>
+		<div id="foreground-box"><img class="img-responsive" src="images/background-box.png" alt=""></div>
+	</div>
+	<div id="slideshow" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#slideshow" data-slide-to="0" class="active" title="CSS3+HTML5"></li>
+			<li data-target="#slideshow" data-slide-to="1" title="JavaScript"></li>
+			<li data-target="#slideshow" data-slide-to="2" title="Bootstrap"></li>
+			<li data-target="#slideshow" data-slide-to="3" title="AugularJS"></li>
+			<li data-target="#slideshow" data-slide-to="4" title="PHP+MySql"></li>
+		</ol>
+		<div class="carousel-inner media-xs-font-size car-txt">
+			<div class="item active">
+				<img class="img-responsive" src="images/03.jpg" alt="CSS3+HTML5">
+				<div class="carousel-caption">
+					<h2>CSS3+HTML5</h2>
+					<p>一张网页，内容是 HTML，样式是 CSS。</p>
+					<p>学习 HTML，你需要认识一些 HTML 的标签，不同的标签用在不同的内容上，比如标题要放到标题标签里（h1..h6），段落的文字要放到 p 标签里，图片要用到 img 标签，一块内容可以用 div 标签包装一下。</p>
+					<p> 学习 CSS，你要知道表示样式的属性，属性的值，怎么把样式应用到对应的地方。</p>
+					<p>标题文字的大小、颜色，段与段之间的距离，图片的边框与阴影，一块内容的宽度与位置等等，这些都是由 CSS 控制的。</p>
+					<span class="media-xs-display">Css布局网页</span>
+					<span class="media-xs-display">Html基本标签制作网页</span>
+				</div>
+			</div>
+			<div class="item">
+				<img class="img-responsive" src="images/04.jpg" alt="JavaScript">
+				<div class="carousel-caption">
+					<h2>JavaScript</h2>
+					<p>JavaScript 可以控制与处理网页上的元素，比如找到页面上的大标题，给它添加一个特别的样式。</p>
+					<p>找到包含特定内容的链接，在它前面添加一个小图标。</p>
+					<p>JavaScript 可以根据网页上发生的事情去执行你指定的动作，比如页面加载以后，用户点击了按钮，鼠标放到某个元素上的时候，按下特定的按键，这些事情发生以后，你想做什么，这就需要用到 JavaScript。</p>
+					<span class="media-xs-display">用Jquery高效写出动态效果</span>
+					<span class="media-xs-display">用原生JS制作动态效果，交互效果</span>
+				</div>
+			</div>
+			<div class="item">
+				<img class="img-responsive" src="images/05.jpg" alt="Bootstrap">
+				<div class="carousel-caption">
+					<h2>Bootstrap</h2>
+					<p>Bootstrap 包的内容 基本结构：Bootstrap 提供了一个带有网格系统、链接样式、背景的基本结构。</p>
+					<p> CSS：Bootstrap 自带以下特性：全局的 CSS 设置、定义基本的 HTML 元素样式、可扩展的 class，以及一个先进的网格系统。</p>
+					<p> 组件：Bootstrap 包含了十几个可重用的组件，用于创建图像、下拉菜单、导航、警告框、弹出框等等。</p>
+					<p> JavaScript 插件：Bootstrap 包含了十几个自定义的 jQuery 插件。</p>
+					<p>您可以直接包含所有的插件，也可以逐个包含这些插件。
+						<p> 定制：您可以定制 Bootstrap 的组件、LESS 变量和 jQuery 插件来得到您自己的版本。</p>
+						<span class="media-xs-display">用CSS框架快速布局</span>
+						<span class="media-xs-display">实现响应式交互效果，可适应3大移动端</span>
+				</div>
+			</div>
+			<div class="item">
+				<img class="img-responsive" src="images/06.jpg" alt="AugularJS">
+				<div class="carousel-caption car-txt">
+					<h2 id="p1">ANgularJS</h2>
+					<p> 模板功能强大丰富，并且是声明式的，自带了丰富的Angular指令；
+					</p>
+					<p> 是一个比较完善的前端MV*框架，包含模板，数据双向绑定，路由，模块化，服务，过滤器，依赖注入等所有功能；
+					</p>
+					<p> 自定义Directive，比jQuery插件还灵活，但是需要深入了解Directive的一些特性，简单的封装容易
+					</p>
+					<p> ng模块化比较大胆的引入了Java的一些东西（依赖注入），能够很容易的写出可复用的代码，对于敏捷开发的团队来说非常有帮助。</p>
+					<p>
+						Angular支持单元测试和e2e-testing。
+					</p>
+					<span class="media-xs-display">用MV*模型实现动态应用</span>
+					<span class="media-xs-display">用JS框架快捷实现模块化开发</span>
+				</div>
+			</div>
+			<div class="item">
+				<img class="img-responsive" src="images/07.jpg" alt="PHP+MySql">
+				<div class="carousel-caption">
+					<h2>PHP+MySql</h2>
+					<p>PHP 是一种后端脚本语言，网站的功能一般就是用这样的脚本语言创建的。</p>
+					<p>MySQL 是数据库管理系统，它主要管理网站的数据。</p>
+					<p>PHP 可以把数据放到 MySQL 数据库里，也可以从数据库里提取内容。</p>
+					<span class="media-xs-display">实现前端和后端数据交互</span>
+				</div>
+			</div>
+			<a href="#slideshow" data-slide="prev" class="left carousel-control">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#slideshow" data-slide="next" class="right carousel-control">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+	<header id="aboutMe-head" class="container">
+		<div class="aot-head-per text-center">
+			<a href="javascript:void();" oncilck="fn();return false;">
+				<img id="aot-per" class="img-circle img-responsive" src="images/per-1.jpg">
+			</a>
+			<h3>生活是一种绵延不绝的渴望,渴望不断上升,变得更强大而高贵。</h3>
+		</div>
+		<hr class="img-circle">
+		<div class="aot-con-per">
+			<p>我叫李少颖</p>
+			<p>爱好摄影</p>
+			<p>想成为一名前端开发工程师</p>
+			<p>persilee@foxmail.com</p>
+		</div>
+	</header>
+	<div id="wrapper">
+		<div id="aboutMe-con" class="container clearfix">
+			<div id="aboutMe-title">
+				<h2>About me</h2>
+				<hr class="img-circle">
+				<h3><small>(： </small>关于我<small> ：)</small></h3>
+			</div>
+
+			<div id="aboutMe-box" class="container">
+				<ul class="row">
+					<li class="col-sm-3">
+						<a href="javascript:void();" oncilck="fn();return false;">
+							<img class="img-circle img-responsive educ hideImg" src="images/educ-black.png" alt="学历" title="学历">
+						</a>
+						<h6><small>Educ</small></h6>
+					</li>
+					<li class="col-sm-3">
+						<a href="javascript:void();" oncilck="fn();return false;">
+							<img class="img-circle img-responsive age hideImg" src="images/age-black.png" alt="年龄" title="年龄">
+						</a>
+						<h6><small>Age</small></h6>
+					</li>
+					<li class="col-sm-3">
+						<a href="javascript:void();" oncilck="fn();return false;">
+							<img class="img-circle img-responsive addr hideImg" src="images/home-black.png" alt="住址" title="住址">
+						</a>
+						<h6><small>Addr</small></h6>
+					</li>
+					<li class="col-sm-3">
+						<a href="javascript:void();" oncilck="fn();return false;">
+							<img class="img-circle img-responsive state hideImg" src="images/state-good-black.png" alt="状态" title="状态">
+						</a>
+						<h6><small>State</small></h6>
+					</li>
+				</ul>
+			</div>
+
+
+			<div id="aboutMe-txt" class="text-center">
+				<p>工作之余喜欢钻研web前端技术</p>
+				<p class="aot-display"><strong>大专&nbsp;</strong><small>(：2011年毕业：）</small></p>
+				<p>对精美的网页尤为敬佩和喜爱</p>
+				<p class="aot-display"><strong>27岁</strong>
+					<time>1989.6</time>
+				</p>
+				<p>日新月异的web技术和层出不穷的框架让我既兴奋期待</p>
+				<p class="aot-display">广东·深圳</p>
+				<p>看漂亮的代码对我而言是一种极致享受</p>
+				<p class="aot-display">离职状态</p>
+			</div>
+		</div>
+		<div id="wellBe" class="container">
+			<div id="wellBe-title">
+				<h2>Well be</h2>
+				<hr class="img-circle">
+				<h3><small>：) </small><small>会做的</small><small> (：</small></h3>
+			</div>
+			<div id="wellBe-con">
+				<div class="row">
+					<div class="col-xs-6 col-md-6 part1 effect-1">
+						<a href="javascript:void();" oncilck="fn();return false;">
+							<img class="img-responsive wellBe-con-img" src="images/well-01.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>BOOTSTRAP</h3>
+							<p>CSS框架完成响应式布局</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6 part1 effect-2">
+						<a href="javascript:void();" oncilck="fn();return false;"><img class="img-responsive wellBe-con-img" src="images/well-02.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>ANGULARJS</h3>
+							<p>JS框架MV*模型开发</p>
+						</div>
+					</div>
+
+					<div id="changeBox" class="col-xs-12 col-md-6 part2 text-desc3">
+						<a href="javascript:void();" oncilck="fn();return false;">
+							<img class="img-responsive wellBe-con-img" src="images/well-09.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>JAVASCRIPT</h3>
+							<p>原生JS基础</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6 part2 text-desc4">
+						<a href="javascript:void();" oncilck="fn();return false;"><img class="img-responsive wellBe-con-img" src="images/well-10.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>JQUERY</h3>
+							<p>JS库更效率</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-md-3 part3 text-desc5">
+						<a href="javascript:void();" oncilck="fn();return false;"><img class="img-responsive wellBe-con-img" src="images/well-11.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>AXURE</h3>
+							<p>制作网页原型</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-3 part4 text-desc7">
+						<a href="javascript:void();" oncilck="fn();return false;"><img class="img-responsive wellBe-con-img" src="images/well-12.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>CSS3+HTML5</h3>
+							<p>动画效果，WEB应用</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 part4 text-desc8">
+						<a href="javascript:void();" oncilck="fn();return false;"><img class="img-responsive wellBe-con-img" src="images/well-13.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>PHOTOSHOP</h3>
+							<p>制作处理图片</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 part3 text-desc6">
+						<a href="javascript:void();" oncilck="fn();return false;"><img class="img-responsive wellBe-con-img" src="images/well-14.jpg" alt="" title="">
+						</a>
+						<div class="text-desc">
+							<h3>AJAX</h3>
+							<p>异步数据处理</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="workExp" class="container">
+			<div id="workExp-title">
+				<h2>Work experience</h2>
+				<hr class="img-circle">
+				<h3><small>(：</small><small>&nbsp;经历&nbsp;</small><small>：)</small></h3>
+			</div>
+			<div id="workExp-com">
+
+			</div>
+			<div id="workExp-bot">
+				<div class="wrapper">
+					<div class="light"><i></i></div>
+					<!--<hr class="line-left">
+<hr class="line-right">-->
+					<div class="main">
+						<h1 class="title">经历  experience</h1>
+						<div class="year closeDown 2016">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2016年<i></i></a></h2>
+							<div class="list highlight">
+								<ul>
+									<li class="cls highlight">
+										<p class="date">4月</p>
+										<p class="intro">web优化和更新</p>
+										<p class="version"></p>
+										<p class="version"></p>
+										<div class="more">
+											<p class="time">D.08</p>
+											<P>大陆空间终于备案成功了</P>
+											<p>我的web拥有了备案号：粤ICP备16026678</p>
+											<p class="time">D.04</p>
+											<P>优化web，把代码和图片做了优化</P>
+										</div>
+									</li>
+									<li class="cls highlight">
+										<p class="date">3月</p>
+										<p class="intro">设计且制作出了自己的web...(^_-)</p>
+										<p class="version"></p>
+										<p class="version"></p>
+										<div class="more">
+											<p class="time">D.28</p>
+											<p>修复Chrome下Contact me模块的微信二维码显示bug</p>
+											<p class="time">D.27</p>
+											<p>新增导航菜单弹性运动效果<small>（不过要在pc端看，移动端因为是触屏,所以看不到效果）</small></p>
+											<p class="time">D.26</p>
+											<p>添加商城首页demo,纯xhtml、css2和js</p>
+											<p class="time">D.25</p>
+											<P>新增了滚动滑轮实现About me和Contact me页面动画效果</P>
+											<P>修复移动端导航栏菜单点击不能收缩bug</P>
+											<p class="time">D.23</p>
+											<P>个人的web页面正式发布</P>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="year closeDown 2015">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2015年<i></i></a></h2>
+							<div class="list">
+								<ul>
+									<li class="cls highlight">
+										<p class="date">3月</p>
+										<p class="intro">项目的里程碑</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>项目终于告终了一个阶段</p>
+											<p>平安证券的门禁卡还在我这里...</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="year closeDown 2014">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2014年<i></i></a></h2>
+							<div class="list">
+								<ul>
+									<li class="cls">
+										<p class="date">12月</p>
+										<p class="intro">一切顺利</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>项目进展还算顺利，比想象中要好o_o</p>
+										</div>
+									</li>
+									<li class="cls highlight">
+										<p class="date">9月</p>
+										<p class="intro">平安证券项目</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>平安证券实时风控系统项目，由我全权负责，既担心有激动</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">6月</p>
+										<p class="intro">技术</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>约拍了很多美女，摄影水平逐渐提升，喜欢自己拍的照片</p>
+											<p>用photoshop处理的照片，大家都说好>_&lt;</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">4月</p>
+										<p class="intro">学习、进步、工作</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>去了各大银行、证券公司、基金公司做项目及维护工作</p>
+											<p>学到很多金融知识^o^</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="year closeDown">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2013年<i></i></a></h2>
+							<div class="list">
+								<ul>
+									<li class="cls">
+										<p class="date">12月</p>
+										<p class="intro">年会</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>公司又建了一栋楼，年会3000多人，真是热闹</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">8月</p>
+										<p class="intro">培训</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>新工作是金融行业，好多东西要学习，大公司就是好组织了培训</p>
+											<p>连续的大半个月的学习，游走在杭州和上海，也顺便玩了下(：</p>
+										</div>
+									</li>
+									<li class="cls highlight">
+										<p class="date">6月</p>
+										<p class="intro">换工作</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>进入了恒生电子股份有限公司，公司好大，好牛的感觉</p>
+											<p>和我一起进公司的同事也换了工作，大家都越来越好</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">2月</p>
+										<p class="intro">年后</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>过完年又回到深圳来工作，家的感觉真好^_^</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="year closeDown">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2012年<i></i></a></h2>
+							<div class="list">
+								<ul>
+									<li class="cls">
+										<p class="date">12月</p>
+										<p class="intro">辛苦</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>负责的客户越来越多，很多问题等着解决，电话响个不停=_=</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">8月</p>
+										<p class="intro">摄影</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>买了第一台单反相机，喜欢上了摄影</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">8月</p>
+										<p class="intro">收获</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>用工作的钱，给自己买了手机和Ipad</p>
+										</div>
+									</li>
+
+									<li class="cls">
+										<p class="date">3月</p>
+										<p class="intro">勤奋</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>努力工作，乐此不疲</p>
+											<p>接触了很多人，遇见很多问题，辛苦并成长着>_&lt;</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="year closeDown">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2011年<i></i></a></h2>
+							<div class="list">
+								<ul>
+									<li class="cls highlight">
+										<p class="date">8月</p>
+										<p class="intro">工作</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>找到了自己人生中的第一份工作，就职思源计算机软件有限公司</p>
+											<p>担任实施工程师职位</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">7月</p>
+										<p class="intro">深圳</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p>和2个同学来到深圳，无亲无故 :~~</p>
+										</div>
+									</li>
+									<li class="cls">
+										<p class="date">7月以前</p>
+										<p class="intro">在南京国家电网实习，憧憬参加工作。</p>
+										<p class="version">&nbsp;</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="year closeDown">
+							<h2><a  href="javascript:void();"  oncilck="fn();return false;">2011年以前<i></i></a></h2>
+							<div class="list">
+								<ul>
+									<li class="cls">
+										<p class="date">&nbsp;</p>
+										<p class="intro">1989年出生在湖北黄冈，然后就一直读书到11年~~~~~</p>
+										<p class="version">&nbsp;</p>
+										<div class="more">
+											<p></p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="demoPer" class="container">
+			<div id="demoPer-title">
+				<h2>Demo</h2>
+				<hr class="img-circle">
+				<h3><small>：) </small><small>&nbsp;作品&nbsp;</small><small> (：</small></h3>
+			</div>
+			<!--手机竖屏样式-->
+			<div id="demoPer-com" class="container demoPer-xs">
+				<div class="row">
+					<div class="col-xs-6 demoXs">
+						<figure class="">
+							<img class="img-responsive" src="images/dome01.jpg" alt="box01" />
+							<figcaption>
+								<h2>HTML CSS<br><samll>商城首页</samll></h2>
+								<a target="_blank" href="demo/csshtml/mallHome/index.html" oncilck="fn();return false;"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 demoXs">
+						<figure class="">
+							<img class="img-responsive" src="images/dome02.jpg" alt="box01" />
+							<figcaption>
+								<h2>原生<br>JS DEMO</h2>
+								<a href="javascript:void();" oncilck="fn();return false;"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 demoXs">
+						<figure class="">
+							<img class="img-responsive" src="images/dome07.jpg" alt="box03" />
+							<figcaption>
+								<h2>CSS3<br>动画效果DOME</h2>
+								<a href="javascript:void();" oncilck="fn();return false;"></a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 demoXs">
+						<figure class="">
+							<img class="img-responsive" src="images/dome04.jpg" alt="box04" />
+							<figcaption>
+								<h2>JQ AJXA<br>瀑布流</h2>
+								<a href="javascript:void();" oncilck="fn();return false;"></a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div id="demoPer-com" class="container">
+				<div class="row">
+					<div class="col-xs-6 grid">
+						<figure class="effect-sadie">
+							<img class="img-responsive" src="images/dome-box07.jpg" alt="box01" />
+							<figcaption>
+								<h2>HTML CSS<span>布局</span></h2>
+								<p>用xhtml、css2布局商城首页
+									<br>从psd文件到静态页面</p>
+								<a target="_blank" href="demo/csshtml/mallHome/index.html" oncilck="fn();return false;">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 grid">
+						<figure class="effect-milo">
+							<img class="img-responsive" src="images/dome-box04.jpg" alt="box01" />
+							<figcaption>
+								<h2>原生<span> JS</span></h2>
+								<p>用原生js实现点击移动和页面交互效果</p>
+								<a href="javascript:void();" oncilck="fn();return false;">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6  grid">
+						<figure class="effect-jazz">
+							<img class="img-responsive" src="images/dome-box05.jpg" alt="box03" />
+							<figcaption>
+								<h2>CSS3动画效果</h2>
+								<p>用html5、css3实现的动画效果demo</p>
+								<a href="javascript:void();" oncilck="fn();return false;">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-xs-6 grid">
+						<figure class="effect-duke">
+							<img class="img-responsive" src="images/dome-box02.jpg" alt="box04" />
+							<figcaption>
+								<h2>JQ AJXA</h2>
+								<p>用jq和ajxa实现的瀑布流</p>
+								<a href="javascript:void();" oncilck="fn();return false;">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contactMe" class="container">
+			<div id="contactMe-box">
+				<div id="contactMe-title">
+					<h2>Contact me</h2>
+					<hr class="img-circle">
+					<h3><small>(： </small><small>&nbsp;联系我&nbsp;</small><small> ：)</small></h3>
+				</div>
+				<section id="contactMe-com" class="container">
+					<article>
+						<div id="contactMe-txt" class="clearfix container">
+							<ul class="list-unstyled information clearfix row">
+								<li class="col-md-6"><img class="img-responsive Shake" src="images/iphone.png">
+									<p>13430812021</p>
+								</li>
+								<li class="col-md-6"><img class="img-responsive Shake" src="images/mail.png">
+									<p>persilee@foxmail.com</p>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+						<div class="information address">
+							<img class="img-responsive Shake" src="images/address.png"><span>广州 深圳</span>
+						</div>
+
+						<div class="contactMe-weixb">
+							<a href="javascript:void();" oncilck="fn();return false;" class="weixin">
+								<img class="weixin-box" src="images/per.jpg" alt="per">
+								<img class="img-circle img-responsive ico" src="images/WeChat-black.png" alt="微信号：Persilee"></a>
+							<a href="http://weibo.com/2757177517/profile?topnav=1&wvr=6&is_all=1" target="_blank" class="weibo">
+								<img class="img-circle img-responsive contactMe-weixb-change" src="images/weibo-black.png" alt="Weibo"></a>
+						</div>
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="footer-cox">
+
+			</div>
+			<div id="copyright" class="text-center line">
+				<span>&copy; 2016 Persilee Inc.</span>
+			</div>
+		</div>
+	</footer>
+	<script src="scripts/jquery-2.2.1.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/holder.js"></script>
+	<script src="scripts/perMove.js"></script>
+</body>
+
+</html>
